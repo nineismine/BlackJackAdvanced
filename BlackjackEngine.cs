@@ -9,7 +9,7 @@ namespace BlackJackAdvanced
         public Card DealCard( Facing facing)
         {
             Random newCard = new Random();
-            Card card = new Card(newCard.Next(2, 14),  facing);
+            Card card = new Card(newCard.Next(2, 15),  facing);
             //add faceup 
             return card;
         }
@@ -38,8 +38,7 @@ namespace BlackJackAdvanced
             }
              return player.Total;
         }
-
-    
+        
 
         public bool DealerCanHit(Player dealer)
         {

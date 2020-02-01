@@ -46,16 +46,7 @@ namespace BlackJackAdvanced
             standing = true;
         }
 
-        /*public void DisplayFaceUpCards(Player player)
-        {    
-            Console.WriteLine("{0} 's cards showing are ", Name);
-            foreach (Card card in player.HeldCards)
-            {
-                Console.WriteLine()
- //               
 
-            }
-        }*/
         public bool IsBusted()
         {
 

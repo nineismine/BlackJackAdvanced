@@ -137,12 +137,7 @@ namespace BlackJackAdvanced
 
         }
 
-        // while ()
-
-        //  PrintCurrentHand(cardsHeld);
-
-        //First card is face down second is face up 
-        //cardsHeld.Add(engine.DealCard());
+        
     }
 }
 
