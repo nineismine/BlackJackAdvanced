@@ -12,7 +12,6 @@ namespace BlackJackAdvanced
         //0 is down 1 is up 
         private Facing facing;
         private bool isUp; 
-
         public int Value { get => value; private set => this.value = value; }
         public PlayerType Owner { get => owner; set => owner = value; }
         internal CardType Type { get => type; set => type = value; }
